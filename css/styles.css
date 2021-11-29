@@ -1,1 +1,73 @@
+body {
+	font-size: 16px;
+    color: black;
+}
 
+#header-nav {
+	background-color: #888888;
+	border: 2px solid black;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	margin-top: 25px;
+}
+
+.navbar-header button.navbar-toggle:hover{
+    background-color: white;
+}
+
+
+
+#main-content {
+    padding: 0 50px 0;
+}
+
+#menu-tile {
+    background-color: #888888;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 0 20px 0;
+}
+
+#indent {
+    text-indent: 40px;
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: white;
+        border: black 1px solid;
+    }
+    
+    #nav-list {
+        margin-top: 20px;
+    }
+    
+    #nav-list p{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    
+    hr {
+        border: 1px solid black;
+    }
+    
+    li:hover {
+        text-decoration: underline;
+    }
+
+    li {
+        cursor: pointer;
+    }
+}
